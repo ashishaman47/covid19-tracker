@@ -1,0 +1,23 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+/* making table use full space in the container */
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* adding padding to each data element */
+.table td {
+  padding: 0.5rem;
+}
+
+/* every odd no. row of record i want it to be gray */
+/* tablerecord:nth-of-type(odd) */
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
